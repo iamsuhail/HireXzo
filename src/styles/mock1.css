@@ -1,0 +1,116 @@
+.mockcart {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    padding: 100px;
+}
+
+.cardslefty {
+    width: 100%;
+    display: flex;
+    grid-template-columns: auto;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.cardslefty1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 2.5rem;
+}
+
+.mockh1 {
+    margin-top: 50px;
+    color: #1C4980;
+}
+
+.mock1p {
+    color: #1C4980;
+}
+
+.cardsbuttont {
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #1C4980;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px;
+
+    border-radius: 10px;
+    height: 150px;
+}
+.cardsbuttont:hover{
+    background-color: rgb(136, 185, 248);
+    color: white;
+}
+
+.inter1 {
+    color: #6B3A12;
+    font-size: 1.6rem;
+}
+
+.inter2 {
+    color: #834EEE;
+    font-size: 1.6rem;
+}
+
+.inter3 {
+    color: #01A768;
+    font-size: 1.6rem;
+}
+
+.cardsrighty {
+
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rightimgcardy {
+    width: 100%;
+    height: 700px;
+    border-radius: 20px;
+}
+
+@media (max-width: 789px) {
+    .mockcart {
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    .cardsbuttont {
+        width: 100%;
+        cursor: pointer;
+        font-size: 1.1rem;
+        color: #01A768;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 10px 0px;
+
+        border-radius: 10px;
+        height: 100px;
+    }
+
+    .rightimgcardy {
+        width: 100%;
+        height: 300px;
+    }
+
+    .cardslefty {
+        height: 50%;
+        margin-top: -130PX;
+    }
+}
